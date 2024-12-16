@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #9EED96, #403D3D);
+}
+.logo-container { text-align: center; margin-bottom: 200px;
+}
+.logo {
+    margin: 10px 0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: 200px;
+    width: fit-content;
+}
+.interna {
+    margin: 10px 0;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.crear-boton {
+    background-color: #088608; /* Color de fondo */
+    border: none;             /* Sin bordes */
+    color: white;             /* Color del texto */
+    padding: 15px 32px;       /* Relleno */
+    text-align: center;       /* Alineación del texto */
+    text-decoration: none;    /* Sin subrayado */
+    display: inline-block;    /* Mostrar en línea */
+    font-size: 16px;          /* Tamaño de fuente */
+    margin: 10px 2px;          /* Márgenes */
+    cursor: pointer;          /* Cursor tipo puntero */
+    border-radius: 12px;      /* Bordes redondeados */
+}
+.mi-boton {
+    background-color: #236808; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado dentro del botón */
+    text-align: center; /* Alineación del texto */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen alrededor del botón */
+    border: none; /* Sin bordes */
+    border-radius: 12px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.mi-boton:hover {
+    background-color: #E6770F; /* Color de fondo al pasar el ratón */
+}
+
+.boton-editar, .boton-borrar {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.boton-editar {
+    background-color: #FFA500; /* Color de fondo de editar */
+}
+.boton-borrar {
+    background-color: #FF0000; /* Color de fondo de borrar */
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
